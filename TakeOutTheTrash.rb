@@ -15,6 +15,6 @@ older_than = 14*24*60*60
 Dir.glob(trashbin) do |item|
   next if item == '.' or item == '..'
     if File.ctime(item) < Time.now() - older_than
-      `rm #{item}`
+      File.delete(item)
     end
   end
