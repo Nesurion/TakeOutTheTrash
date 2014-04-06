@@ -1,7 +1,7 @@
 TakeOutTheTrash
 ===============
 
-A little Ruby script that deletes files, wich are older than a spezified time peroid.
+A little Ruby script that deletes files, which are older than a specified time.
 
 
 Usage
