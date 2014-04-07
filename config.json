@@ -1,11 +1,11 @@
 {
     "folder": [
-        "/Users/Nes/Programming/TakeOutTheTrash/testfiles/",
-        "/Users/Nes/Programming/TakeOutTheTrash/testfiles2/"
+        "/path/to/folder/",
+        "/path/to/anotherFolder"
     ],
 
     "years": 0,
     "months": 0,
-    "days": 14,
+    "days": 0,
     "hours": 0
 }

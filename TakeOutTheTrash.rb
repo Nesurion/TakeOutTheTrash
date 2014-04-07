@@ -26,6 +26,8 @@ end
 #delete files based on time
 for item in absolutePaths
 	if (Time.new.to_i - File.ctime(item).to_i) > older_than
+		#debuging
+		#puts item
 		File.delete(item) #Delete command - high risk
 	end
 end
