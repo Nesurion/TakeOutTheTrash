@@ -13,4 +13,4 @@ Usage
 Flags
 -----
 -f, --force
-  Dont ask, just delete.
+Dont ask, just delete.
