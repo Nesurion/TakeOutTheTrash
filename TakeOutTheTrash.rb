@@ -47,8 +47,8 @@ end
 if opts[:force]
 	markedForDeleteList.each do |delMarkedFile|
 		#debuging
-		puts delMarkedFile
-		#File.delete(item) #Delete command - high risk
+		#puts delMarkedFile
+		File.delete(delMarkedFile) #Delete command - high risk
 	end
 end
 
@@ -60,8 +60,8 @@ if opts[:force] == false && markedForDeleteList.any?
 		for delMarkedFile in markedForDeleteList
 
 			#debuging
-			puts delMarkedFile.inspect
-			#File.delete(item) #Delete command - high risk
+			#puts delMarkedFile.inspect
+			File.delete(delMarkedFile) #Delete command - high risk
 		end
 	end
 else
