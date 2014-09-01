@@ -9,3 +9,7 @@ Usage
 - Edit config.json to your needs
 - paths in config.json need to be absolut: /path/to/folder/
 - Add a cronjob to your crontab, to run periodical.
+
+Flags
+-----
+-f, --force : Dont ask, just delete.
